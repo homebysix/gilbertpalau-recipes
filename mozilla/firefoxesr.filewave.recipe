@@ -8,8 +8,8 @@
 	<string>com.github.autopkg.gilbertpalau-recipes.mozilla.FireFoxESR.filewave.recipe</string>
 	<key>Input</key>
 	<dict>
-		<key>NAME</key>
-		<string>FireFox ESR</string>
+	<key>NAME</key>
+	<string>FireFox ESR</string>
         <key>fw_destination_root</key>
         <string>/Applications/%NAME%.app</string>
 	</dict>
