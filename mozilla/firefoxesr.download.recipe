@@ -11,11 +11,10 @@
 		<key>NAME</key>
 		<string>FirefoxESR</string>
 		<key>DOWNLOAD_URL</key>
-		<string>https://download.mozilla.org/?product=firefox-esr-latest&amp;os=osx&amp;lang=en-US</string>
+    <string>https://download.mozilla.org/?product=firefox-esr-latest&amp;os=osx&amp;lang=en-US</string>
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.autopkg.download.firefox-rc-en_US</string>
-</dict>
     <key>MinimumVersion</key>
     <string>0.4.1</string>
     <key>Process</key>
@@ -30,8 +29,8 @@
                 <key>locale</key>
                 <string>%LOCALE%</string>
             </dict>
-            <key>Processor</key>
-            <string>MozillaURLProvider</string>
+                <key>Processor</key>
+                <string>MozillaURLProvider</string>
         </dict>
         <dict>
             <key>Arguments</key>
