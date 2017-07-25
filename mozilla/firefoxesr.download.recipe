@@ -9,7 +9,7 @@
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
-		<string>FirefoxESR</string>
+		<string>Firefox ESR</string>
 		<key>DOWNLOAD_URL</key>
 <string>https://download.mozilla.org/?product=firefox-esr-latest&amp;os=osx&amp;lang=en-US</string>
 	</dict>
