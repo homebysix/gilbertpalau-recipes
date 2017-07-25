@@ -11,7 +11,7 @@
         <key>NAME</key>
         <string>FileWaveLightning</string>
         <key>DOWNLOAD_URL</key>
-        <string>http://downloads.filewave.com/lightning/FileWave_Lightning-1.8.3.dmg</string>
+        <string>http://fwdl.filewave.com/lightning/FileWave_Lightning-1.8.6.dmg</string>
     </dict>
     <key>MinimumVersion</key>
     <string>0.1.0</string>
