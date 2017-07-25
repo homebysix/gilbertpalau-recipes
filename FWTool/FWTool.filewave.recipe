@@ -10,7 +10,7 @@
     <key>Input</key>
     <dict>
         <key>SPARKLE_FEED_URL</key>
-        <string>http://update.evernote.com/public/ENMac/EvernoteMacUpdate.xml</string>
+        <string>https://update.evernote.com/public/ENMac/EvernoteMacUpdate.xml</string>
     </dict>
 
     <key>Identifier</key>
