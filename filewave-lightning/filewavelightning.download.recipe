@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
     <key>Description</key>
-    <string>Downloads FileWave Lightning 1.8.3</string>
+    <string>Downloads FileWave Lightning 1.8.7</string>
     <key>Identifier</key>
     <string>com.github.gilbertpalau.fwvlightning.download.recipe</string>
     <key>Input</key>
