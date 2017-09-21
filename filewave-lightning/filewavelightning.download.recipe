@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
     <key>Description</key>
-    <string>Downloads FileWave Lightning 1.8.3</string>
+    <string>Downloads FileWave Lightning 1.8.7</string>
     <key>Identifier</key>
     <string>com.github.gilbertpalau.fwvlightning.download.recipe</string>
     <key>Input</key>
@@ -11,7 +11,7 @@
         <key>NAME</key>
         <string>FileWaveLightning</string>
         <key>DOWNLOAD_URL</key>
-        <string>http://fwdl.filewave.com/lightning/FileWave_Lightning-1.8.6.dmg</string>
+        <string>http://fwdl.filewave.com/lightning/FileWave_Lightning-1.8.7.dmg</string>
     </dict>
     <key>MinimumVersion</key>
     <string>0.1.0</string>
