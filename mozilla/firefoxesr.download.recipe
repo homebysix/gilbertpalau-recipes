@@ -1,23 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-	
+<dict>	
 <dict>
 	<key>Description</key>
 	<string>Downloads the latest version of Mozilla Firefox ESR for Mac.</string>
 	<key>Identifier</key>
 	<string>com.github.gilbertpalau-recipes.download.FirefoxESR-Mac</string>
-	<key>Input</key>
-	<dict>
-		<key>NAME</key>
-		<string>Firefox ESR</string>
-		<key>DOWNLOAD_URL</key>
-<string>https://download.mozilla.org/?product=firefox-esr-latest&amp;os=osx&amp;lang=en-US</string>
-	</dict>
-	<key>ParentRecipe</key>
-	<string>com.github.autopkg.download.firefox-rc-en_US</string>
-    	<key>MinimumVersion</key>
-    	<string>0.4.1</string>
     	<key>Process</key>
     	<array>
 		<dict>
