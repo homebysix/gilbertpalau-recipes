@@ -10,17 +10,23 @@
     	<key>Process</key>
     	<array>
 		<dict>
-       			<key>Processor</key>
-       			<string>com.github.gregneagle.autopkg.sharedprocessors/DeprecationWarning</string>
-      	 		<key>Arguments</key>
+			<key>Arguments</key>
+			<dict>
+				<key>warning_message</key>
+				<string>This recipe is now non-functional. Please remove it from your list of recipes.</string>
+			</dict>
+			<key>Processor</key>
+			<string>com.github.gregneagle.autopkg.sharedprocessors/DeprecationWarning</string>
 		</dict>
-         	<dict>
-            		<key>warning_message</key>
-            		<string>This recipe is now non-functional. Please remove it from your list of recipes.</string>
-         	</dict>
-</dict>
-	
-
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>predicate</key>
+				<string>TRUEPREDICATE</string>
+			</dict>
+			<key>Processor</key>
+			<string>StopProcessingIf</string>
+		</dict>
     </array>
 </dict>
 </plist>
