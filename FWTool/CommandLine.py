@@ -1,3 +1,5 @@
+from __future__ import absolute_import
+from __future__ import print_function
 import subprocess
 from subprocess import CalledProcessError
 import re, os
@@ -125,13 +127,13 @@ class FWAdminClient(object):
         ret = None
         try:
             if print_output:
-                print process_options
+                print(process_options)
             ret = subprocess.check_output(process_options, stderr=subprocess.STDOUT).rstrip()
         except CalledProcessError as e:
             got_error = True
             if print_output:
-                print "Command failed, error code: ", e.returncode
-                print "Ouput: ", e.output
+                print("Command failed, error code: ", e.returncode)
+                print("Ouput: ", e.output)
             if not error_expected:
                 raise e
             else:
@@ -258,7 +260,7 @@ class FWAdminClient(object):
         if target:
             options.extend(["--filesetgroup", str(target)])
         create_empty_fileset_result = self.run_admin(options)
-        print create_empty_fileset_result
+        print(create_empty_fileset_result)
         matcher = re.compile(r'new fileset (?P<id>.+) created with name (?P<name>.+)')
         search = matcher.search(create_empty_fileset_result)
         id = search.group('id')
